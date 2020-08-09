@@ -1,0 +1,479 @@
+*{
+    font-family: sans-serif;
+   box-sizing: border-box;
+   
+}
+body{
+    background-color: rgb(212, 206, 206);
+    margin: 0;
+    padding: 0;
+    
+}
+#contain{
+    width:55%;
+  position: absolute;
+  left: 50%;
+  margin-top: 50px;
+    transform: translate(-50%);
+  top: 5%;
+   
+}
+
+#info{
+    background-color: white;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: auto;
+    
+}
+#info1 {
+    height: 300px;
+}
+img{
+    width:100%;
+    height: 300px;
+    object-fit:fill;
+}
+
+#lin{
+     text-align: center;
+     width: 100%;
+     display: inline-block;
+    background-color: red;
+   padding: 20px;
+   box-sizing: border-box;
+}
+#lin a{
+    margin: 30px; 
+}
+#h{
+    background-color: red;
+    padding: 4px;
+    width: min-content;
+    color: white;
+    font-weight: bold;
+}
+#sign{
+    height: 0;
+    width: 0;
+    position: absolute;
+    left: 33%;
+    top: 3.1%;
+    border: medium solid red;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent red;
+    transform: rotate(90deg);
+}
+
+#n{
+    font-size: 30px;
+    margin-top: 5px;
+}
+p{
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+ 
+}
+
+#back{
+    background-color: red;
+    width: 100%;
+    height: 300px;
+    margin-top: 0;
+}
+#show{
+    float: right;
+    color: red;
+   margin-bottom: 20px;
+   cursor: pointer;
+}
+#show:hover{
+    opacity: 0.7;
+}
+#nav{
+    position: absolute;
+    top: 0%;
+    right:5%
+}
+#nav ul li{
+    float: left;
+    margin: 5px 10px;
+    padding: 5px 10px;
+    list-style-type: none;
+    color: white;
+    cursor: pointer;
+}
+#nav ul li:hover{
+    opacity: 0.8;
+}
+#nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+#info1 button{
+   padding: 10px 20px;
+   background-color: white;
+   border: 2px grey solid;
+   margin-top: 12px;
+   cursor: pointer;
+}
+
+.prev{
+    float: left;
+    position: absolute;
+    top: 45%;
+    left: 4%;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    padding: 16px;
+    border-radius: 3px 0 0 3px;
+    font-weight: bold;
+}
+.next{
+    color: white;
+    padding: 16px;
+    position: absolute;
+    top: 45%;
+    right: 4%;
+    cursor: pointer;
+    border-radius: 3px 0 0 3px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.prev:hover,.next:hover{
+    background-color: rgba(0,0,0,0.8);
+}
+#info1 button a{
+    color: gray;
+    font-weight: bold;
+    
+}
+#skill{
+    background-color: white;
+    width: 48%;
+    float: left;
+    height:300px;
+    padding-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+}
+#skills button{
+    background-color: red;
+    border: none;
+    color: white;
+    font-weight: bold; 
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 4px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+#skills{
+    margin-top: 40px;
+}
+#askills{
+    margin-top: 40px;
+}
+#askill{
+    background-color: white;
+    width: 48%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height:300px;
+    float: right;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+#askills button{
+    background-color: red;
+    border: none;
+    color: white;
+    font-weight: bold; 
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 4px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+#dd{
+    border: none;
+    color: white;
+    opacity: 0.8;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: red;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 4px;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+#kill{
+    background-color: transparent;
+    width: 100%;
+    margin: 100px auto;
+}
+
+#edu{
+    background-color: white;
+    width: 100%;
+    height:500px;
+    position: relative;
+    margin-top: 450px;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+#timeline{
+    background-color: red;
+    width: 6px;
+    height: 300px;
+    position: absolute;
+    left: 5%;
+    margin-top: 10px;
+}
+#c{
+    width: 100%;
+    position: absolute;
+    left: 10%;
+    margin: 20px;
+}
+#containt{
+    background-color: white;
+    padding: 20px;
+    position: absolute;
+    left: 10%;
+    margin-top: 10px;
+}
+#one{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 4px solid red;
+    border-radius: 50%;
+   margin-left: -7px;
+   margin-top: 30px;
+}
+#containt1{
+    background-color: white;
+    padding: 20px;
+    position: absolute;
+    left: 10%;
+    width: 50%;
+    margin-top: 100px;
+}
+#containt2{
+    background-color: white;
+    padding: 20px;
+    position: absolute;
+    left: 10%;
+    width: 50%;
+    margin-top: 200px;
+}
+#two{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 4px solid red;
+    border-radius: 50%;
+   margin-left: -7px;
+   margin-top: 70px;
+}
+#three{
+
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 4px solid red;
+    border-radius: 50%;
+   margin-left: -7px;
+   margin-top: 70px;
+}
+#y{
+   position: absolute;
+   top: 35%;
+   left: 5%;
+}
+#y2{
+    margin-top: 80px;
+}
+#y3{
+    margin-top: 80px;
+}
+#project{
+    width: 100%;
+   margin-top: 50px;
+    padding-top: 20px;
+}
+#dd a{
+    text-decoration: none;
+    color: white;
+}
+#pap{
+   width: 100%;
+   margin-top: 30px;
+   background-color: white;
+   height: auto;
+   margin-bottom: 40px;
+   overflow: hidden;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#pap:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#co{
+   width: 50%;
+  float: right;
+  margin-right: 50px;
+}
+#o{
+    cursor: pointer;
+    width: 100%;
+   
+}
+#p1{
+    position: relative;
+    width: 40%;
+    float: left;
+}
+#edu{
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#info1{
+    width: 60%;float: right;margin-top: 30px;margin-right: 50px;
+}
+#cc{
+    width:100%; padding: 10px;
+}
+#pro{
+    width: 25%;
+    float: left;
+    margin: 30px 10px 10px 30px;
+}
+
+
+@media only screen and (max-width : 600px) {
+    #contain{
+        width:335px;
+        box-sizing: border-box;
+      
+    }
+    #lin a{
+        margin: 3px;
+    }
+   
+    #info{
+       box-sizing: border-box;
+       width: 100%;
+       padding: 0;
+       height: auto;
+       background-color: red;
+    }
+    #inf{
+        width:100%;
+        height: auto;
+        background-color: aqua;
+    }
+    
+   #pro{
+       width: 100%;
+       margin: 0;
+       height: 300px;
+   }
+    #info1{  
+        width:100%;
+        margin: 0;
+        height: auto;
+        padding: 10px;
+       background-color: aliceblue;
+    }
+   #kill{
+       box-sizing: border-box;
+       width: 100%;
+       height: auto;
+       padding: 0;
+   }
+   #skill{
+       width: 100%;
+   }
+   #askill{
+       width: 100%;
+       margin: 0;
+   }
+   #edu{
+   
+       margin-top: 780px;
+       width: 100%;
+       height: auto;
+   }
+   #y,#timeline{
+       display: none;
+   }
+   #project{
+       margin-top: 500px;
+   }
+   #c{
+       width: 100%;
+       height: auto;
+      padding: 0;
+      margin: 0;
+      left: 0%;
+   }
+   #containt{
+       float: none;
+       width: 100%;
+       height: auto;
+       margin-top: 20px;
+     
+      left: 0;
+   }
+   #containt1{
+       width: 100%;
+       height: auto;
+       left: 0%;
+      margin-top: 130px;
+   }
+   #containt2{
+       width: 100%;
+       height: auto;
+       left: 0%;
+       margin-top: 230px;
+   }
+   #project{
+       width: 100%;
+       margin-top: 350px;
+       height: auto;
+   }
+   #pap{
+       width: 100%;
+      height: auto;
+    }
+    #o {
+        width: 100%;
+       height: auto;
+        margin: 0;
+        
+    }
+    #p1{
+        width: 100%;
+    }
+    #co{
+       
+        margin: 0;
+        width: 100%;
+        
+    }
+
+}
+    
