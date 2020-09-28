@@ -1,5 +1,18 @@
 var index=1;
 showslid(index);
+function scrroll(id){
+  var idd;
+  if(id==1)
+   idd = "";
+   else if(id==2)
+   idd = "edu"
+   else if(id == 3)
+    idd = "kill";
+    else
+    idd = "project"
+  var c=document.getElementById(idd);
+  c.scrollIntoView();
+}
 function show(){
    var a= document.getElementById("show").innerHTML;
    if(a=="Show More"){
