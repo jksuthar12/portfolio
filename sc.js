@@ -110,5 +110,5 @@ function pro(){
 function proo(){
   var d = document.getElementById('prog');
   d.style.display='none';
-  document.getElementById('mm').style.display='inline';
+  document.getElementById('mm').style.display='block';
 }
