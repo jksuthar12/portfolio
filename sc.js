@@ -15,6 +15,7 @@ function scrroll(id){
   c.scrollIntoView();
 }
 function show(){
+  hell();
    var a= document.getElementById("show").innerHTML;
    if(a=="Show More"){
      var b=document.getElementsByClassName("papp");
@@ -112,7 +113,14 @@ function pro(){
   
 }
 function proo(){
+  var idd = setInterval(stop,2500);
+  function stop(){
+    clearInterval(idd)
   var d = document.getElementById('prog');
   d.style.display='none';
   document.getElementById('mm').style.display='block';
+}
+}
+function hell(){
+  window.alert("fjsfksd");
 }
