@@ -1,4 +1,5 @@
 var index=1;
+pro();
 showslid(index);
 function scrroll(id){
   var idd;
@@ -106,8 +107,7 @@ function pro(){
       d.style.width = width + '%'; 
       
     }
-    if(check==2)
-    {clearInterval(id);proo();}
+   
   }
   
 }
