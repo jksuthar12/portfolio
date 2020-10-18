@@ -89,6 +89,7 @@ function pro(){
   var width = 0;
   var id = setInterval(frame, 10);
   var x = 100;
+  var check  = 0;
   function frame() {
     if (width == 100) {
       d.style.float= 'right';
@@ -96,6 +97,7 @@ function pro(){
       d.style.width = x + '%';
       if(x==0){
         x=100;
+        check++;
         width=0;
       }
     } else {
@@ -104,6 +106,8 @@ function pro(){
       d.style.width = width + '%'; 
       
     }
+    if(check==2)
+    {clearInterval(id);proo();}
   }
   
 }
