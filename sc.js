@@ -15,7 +15,7 @@ function scrroll(id){
   c.scrollIntoView();
 }
 function show(){
-  hell();
+  
    var a= document.getElementById("show").innerHTML;
    if(a=="Show More"){
      var b=document.getElementsByClassName("papp");
